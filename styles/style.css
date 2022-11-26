@@ -141,4 +141,36 @@ nav ul li a:hover {
   color: #344D67;
   background-color: #6ECCAF;
   border-color: #F3ECB0;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.5rem;
+  border-top: 2px solid #344D67;
+  margin-top: 1rem;
+  padding: 1.2rem;
+  background: linear-gradient(to left, #344D67, #6ECCAF, #F3ECB0);
+}
+footer i {
+  color: red;
+}
+
+#pedra-e-flor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #344D67;
+}
+#pedra-e-flor h3 {
+  font-weight: 300;
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #6ECCAF;
+  padding-bottom: 1rem;
+}
+
+.bem-estar {
+  width: 50%;
 }/*# sourceMappingURL=style.css.map */
